@@ -19,10 +19,10 @@ Test
 - Open the repository directory default created folder after clone will be (ayp-test-apps)
 - Please run this "docker-compose up -d" to install all docker container
 - Run "docker-compose run composer install"
-- After laravel installed please copy and rename .env.example to .env
-- Run "docker-compose run artisan key:generate" to create key 
+- After laravel installed Go to /src/ (cd src/) please copy and rename .env.example to .env
+- Back to main folder Run "docker-compose run artisan key:generate" to create key 
 - Run "docker-compose run artisan migrate" to run migration scripts 
-- Go to .src/ directory Please run this command "npm install". make sure all dependecy react Component build seamlessly
+- Go to src/ directory (cd src/) Please run this command "npm install". make sure all dependecy react Component build seamlessly
 - after that please run this command "npm run build". to compile js.
 - Go to http:://localhost:8080 to access the application
 
