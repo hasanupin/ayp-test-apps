@@ -14,7 +14,7 @@ Test
 - Make sure to install Node version 16.13.1
 - Make sure to install Npm 8.1.2
 
-### Pre-Requirement
+### Step to Install
 - Clone this repository.
 - Open the repository directory default created folder after clone will be (ayp-test-apps)
 - Please run this "docker-compose up -d" to install all docker container
